@@ -1,6 +1,6 @@
 import React , {Component} from 'react';
 import './App.css';
-
+import Dashboard from './components/Dashboard';
 
 export default class App extends Component {
   constructor(props) {
@@ -43,12 +43,12 @@ export default class App extends Component {
           <button type="submit" onClick={this.handleSubmit}>Submit</button>
         </div>
       )
-    /*  case 2: return (
+     case 2: return (
         <Dashboard
           name={this.state.name}
           email={this.state.email}
         />
-      )*/
+      )
     }
   }
 }
